@@ -54,9 +54,9 @@ do
                 }
             }
         """ > ${FILE}
+
+    echo "Migration Scripts Generated Successfully"
 done
 
 rm -r ./config/temp-dir
 rm -r ./config/models
-
-echo "Migration Scripts Generated Successfully"
