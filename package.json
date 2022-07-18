@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Muhammad Uzair",
+    "email": "uzairbhayya@gmail.com"
+  },
   "scripts": {
     "generate":"bash ./migration-script-generator.sh",
     "migration:up":"npx sequelize-cli db:migrate",
