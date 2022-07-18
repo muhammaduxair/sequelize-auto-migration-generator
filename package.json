@@ -1,0 +1,16 @@
+{
+  "name": "sequelize-migration-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate":"bash ./migration-script-generator.sh",
+    "migration:up":"npx sequelize-cli db:migrate",
+    "migration:down":"npx sequelize-cli db:migrate:undo:all"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "sequelize-auto": "^0.8.8"
+  }
+}
