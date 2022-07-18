@@ -1,6 +1,6 @@
 const SequelizeAuto = require("sequelize-auto");
 
-const auto = new SequelizeAuto("ht_admin", "root", "root", {
+const auto = new SequelizeAuto("database", "username", "password", {
   host: "localhost",
   dialect: "mysql",
   directory: "./config/models",
