@@ -54,8 +54,6 @@ do
                 }
             }
         """ > ${FILE}
-
-    echo "Migration Scripts Generated Successfully"
 done
 
 rm -r ./config/temp-dir
